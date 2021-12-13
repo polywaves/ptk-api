@@ -1,8 +1,8 @@
 version: "3.5"
 
 services:
-  joikapi:
+  ptkapi:
     build: .
     restart: always
     ports:
-      - "3000:3000"
+      - "3030:3030"
